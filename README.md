@@ -2,6 +2,7 @@
 Server provider of health food
 
 Steps:
+
 1. Download required npm dependencies:
 
   $ sudo npm install
