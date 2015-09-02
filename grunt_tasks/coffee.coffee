@@ -14,13 +14,17 @@ module.exports =
     expand: true
     flatten: false
     cwd: 'server/'
-    src: ['server/**/*.coffee']
-    dest: 'build/'
-    rename: (dest, src) ->
-      folder = src.substring 0, src.lastIndexOf '/'
-      filename = src.substring src.lastIndexOf '/', src.length
-      filename = filename.substring 0, filename.lastIndexOf '.'
-      dest + folder + filename + '.js'
+    src: ['**/*.coffee']
+    dest: 'build/server'
+    ext: '.js'
+
+  client:
+    expand: true
+    flatten: false
+    cwd: 'client/'
+    src: ['**/*.coffee']
+    dest: 'build/client'
+    ext: '.js'
 
   test:
     files: [

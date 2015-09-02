@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rolandovillca/hestia-food.git"
+    "url": "git+https://github.com/rolandovillca/server-client-demo.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rolandovillca/hestia-food/issues"
+    "url": "https://github.com/rolandovillca/server-client-demo/issues"
   },
-  "homepage": "https://github.com/rolandovillca/hestia-food#readme",
+  "homepage": "https://github.com/rolandovillca/server-client-demo#readme",
   "devDependencies": {
     "coffee-script": "^1.9.3",
     "coffeelint": "^1.11.1",

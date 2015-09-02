@@ -4,14 +4,28 @@ Clean files and folders.
 ###
 
 module.exports =
-  dev:
+  server:
     src: [
       'build/server'
+      '.tmp'
+      '*.log'
+    ]
+
+  client:
+    src: [
+      'build/client'
+      '.tmp'
+      '*.log'
+    ]
+
+  test:
+    src: [
       'build/test'
       '.tmp'
       '*.log'
     ]
 
-  build:
+  all:
     src: [
+      'build'
     ]
