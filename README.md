@@ -13,4 +13,4 @@ Steps:
 
 3. Run the application:
 
-  $ grunt server
+  $ node build/server/app.js
