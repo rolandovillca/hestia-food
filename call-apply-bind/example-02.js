@@ -1,24 +1,30 @@
 // It allows to set the value for this independent of how the function is called
 // This is very useful when working with callbacks:
 
-function sayHello(){
-  alert(this.message);
+// EXAMPLE 1:
+// =============================================================================
+
+function sayHello1 () {
+  console.log(this.message);
 }
 
-var obj = {
-   message : "hello"
-};
+var obj1 = {
+  message: 'Hello1'
+}
 
-setTimeout(sayHello.bind(obj), 1000);
+setTimeout(sayHello1.bind(obj1), 1000);
 
+
+// EXAMPLE 2:
+// =============================================================================
 // To achieve the same result with call would look like this:
 
-function sayHello(){
-  alert(this.message);
+function sayHello2 () {
+  console.log(this.message);
 }
 
-var obj = {
-  message : "hello"
-};
+var obj2 = {
+  message: 'Hello2'
+}
 
-setTimeout(function(){sayHello.call(obj)}, 1000);
+setTimeout(function () { sayHello2.call(obj2); }, 1000)

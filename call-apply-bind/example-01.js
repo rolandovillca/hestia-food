@@ -3,7 +3,7 @@
 
 // EXAMPLE 1:
 // =============================================================================
-// call attaches "this" into function and executes the function immediately:
+// "call" attaches "this" into function and executes the function immediately:
 
 var person = {
   name: 'James Smith',
@@ -16,7 +16,7 @@ person.hello.call(person, 'world'); // output: 'James Smith says hello world'
 
 // EXAMPLE 2:
 // =============================================================================
-// bind attaches "this" into function and it needs to be invoked separately:
+// "bind" attaches "this" into function and it needs to be invoked separately:
 
 var person = {
   name: 'James Smith',
@@ -35,7 +35,7 @@ helloFunc2(); // output: 'James Smith says hello world'
 
 // EXAMPLE 3:
 // =============================================================================
-// apply is similar to call except that it takes an array-like object
+// "apply" is similar to call except that it takes an array-like object
 // instead of listing the arguments out one at a time:
 
 function PersonContainer () {
