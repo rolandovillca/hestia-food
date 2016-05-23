@@ -15,7 +15,7 @@ Person.prototype.toString = function () {
 };
 
 
-// EXAMPLE 1:
+// EXAMPLE 1: Specify Context through Call() and Apply():
 // =============================================================================
 // Since the problem is that we lost the context of this function when invoked,
 // we can use "call" and "apply" method of JavaScript Function to specify the

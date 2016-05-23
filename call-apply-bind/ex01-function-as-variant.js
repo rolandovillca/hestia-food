@@ -21,7 +21,7 @@ console.log(tom.say('Hello'));
 console.log();
 
 
-// EXAMPLE 2:
+// EXAMPLE 2: Pass Function as a Variant:
 // =============================================================================
 // Now let's do something different. As you should know we can pass a function
 // as a variant, just like string, number and Boolean, etc. So I will retrieve

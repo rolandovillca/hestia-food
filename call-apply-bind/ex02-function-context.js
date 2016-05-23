@@ -15,7 +15,7 @@ Person.prototype.toString = function () {
 };
 
 
-// EXAMPLE 1:
+// EXAMPLE 1: Function Context:
 // =============================================================================
 // We assigned the value to the variants "_firstName" and "_lastName" without
 // defined so that they will became members under the global context.
