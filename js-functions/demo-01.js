@@ -18,13 +18,6 @@ person.hello.call(person, 'world'); // output: 'James Smith says hello world'
 // =============================================================================
 // "bind" attaches "this" into function and it needs to be invoked separately:
 
-var person = {
-  name: 'James Smith',
-  hello: function (arg) {
-    console.log(this.name + ' says hello ' + arg);
-  }
-}
-
 var helloFunc1 = person.hello.bind(person);
 helloFunc1('world'); // output: 'James Smith says hello world'
 
