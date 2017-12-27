@@ -4,7 +4,8 @@ var myCallback = function(err, data) {
 };
 
 var usingItNow = function(callback){
-    callback(null, 'get it?') // I dont want to throw an error, so I pass null for the error argument
+	// I dont want to throw an error, so I pass null for the error argument.
+    callback(null, 'get it?');
 }
 
 // If we want to simulate an error case, we can define usingItNow like this
