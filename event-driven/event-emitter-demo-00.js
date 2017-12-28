@@ -11,6 +11,8 @@ eventEmitter.on('doorOpen2', function (ring) {
   console.log(ring);
 });
 
-eventEmitter.emit('doorOpen1'); //No needed the second argument.
+// Here no needed the second argument.
+eventEmitter.emit('doorOpen1');
 
-eventEmitter.emit('doorOpen2', 'rong rong rong rong'); //We just pass the arguments in the emit() method.
+// Here we need to pass the second argument in the emit() method.
+eventEmitter.emit('doorOpen2', 'rong rong rong rong');
